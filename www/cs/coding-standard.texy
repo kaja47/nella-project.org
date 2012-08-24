@@ -44,3 +44,8 @@ phpDoc
 1) Pokud phpDoc vlastnosti obsahuje pouze `@var` zapisuje se na jeden řádek `/** @var string */`
 2) U anotace `@param` nepíšeme název parametru.
 3) Anotace začíná vždy malím písmenem.
+
+Ostatní
+-------
+
+1) If / else / elseif mají vždy `{}`
