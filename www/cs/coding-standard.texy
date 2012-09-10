@@ -7,9 +7,9 @@ PSR-2 exclude
 --------------
 
 1) Odsazujeme pomocí tabů nikoli 4 mezer.
-2) Pro use třídy nebo namespace používáme pouze jedno use. Jedlotlivé třídy nebo namespace oddělujeme čarkou. Druhý a další use je odsazen o jednu ůroveň.
+2) Pro use třídy nebo namespace používáme pouze jedno use. Jednotlivé třídy nebo namespace oddělujeme čárkou. Druhý a další use je odsazen o jednu úroveň.
 3) `TRUE`, `FALSE` a `NULL` jsou vždy velkými písmeny
-4) Více řádkové parametry funkcí / volání funkcí formátujeme tak aby byly snadno čitelné
+4) Víceřádkové parametry funkcí / volání funkcí formátujeme tak aby byly snadno čitelné
 
 Namespace a use
 ---------------
@@ -23,7 +23,7 @@ Pole a stringy
 ---------------
 
 1) Pokud to není nutné jsou stringy uvozovány do apostrofů místo uvozovek.
-2) Pole se nikdy neodsazují zarovanně.
+2) Pole se nikdy neodsazují zarovnaně.
 
 Třídy a interface
 ------------------
@@ -34,9 +34,9 @@ Třídy a interface
 4) Metody
 5) *Getter* předchází *setter*.
 6) Pokud třída obsahuje veřejný *getter* / *setter* musí obsahovat i `@property` anotaci
-7) Mezi jednotlivímy vlastnostmy a konstantamy se nedělají mezery (nové řádky)
-8) Mezi vlastnostmy, konstantamy a jednotlivímy metodami je vždy jedna mezera (nový řádek)
-9) Mezi koncem a začátem těla třídy není mezera (nový řádek) - tělo začíná na novém řádku za `{` a končí před `}` které je na novém řádku
+7) Mezi jednotlivými vlastnostmi a konstantami se nedělají mezery (nové řádky)
+8) Mezi vlastnostmi, konstantami a jednotlivými metodami je vždy jedna mezera (nový řádek)
+9) Mezi koncem a začátkem těla třídy není mezera (nový řádek) - tělo začíná na novém řádku za `{` a končí před `}` které je na novém řádku
 10) Interface vždy začíná písmenkem *I*
 
 phpDoc
@@ -44,7 +44,7 @@ phpDoc
 
 1) Pokud phpDoc vlastnosti obsahuje pouze `@var` zapisuje se na jeden řádek `/** @var string */`.
 2) U anotace `@param` nepíšeme název parametru.
-3) Anotace začíná vždy malím písmenem.
+3) Anotace začíná vždy malým písmenem.
 4) Pokud v anotaci uvádíme typ a typem je třída nebo interface, který máme uveden v use uvádíme do anotace full class.
 
 Ostatní
