@@ -9,12 +9,13 @@ PSR-2 exclude
 1) Odsazujeme pomocí tabů nikoli 4 mezer.
 2) Pro use třídy nebo namespace používáme pouze jedno use. Jedlotlivé třídy nebo namespace oddělujeme čarkou. Druhý a další use je odsazen o jednu ůroveň.
 3) `TRUE`, `FALSE` a `NULL` jsou vždy velkými písmeny
+4) Více řádkové parametry funkcí / volání funkcí formátujeme tak aby byly snadno čitelné
 
 Namespace a use
 ---------------
 
 1) Výjimky vyhazujeme jako full class
-2) Use používáme pouze pokud se třída v kódu používá více než jednou (neplatí pro anotace)
+2) Pro třídy, které nelze zapsat relativní cestou (namespace) používáme use.
 3) V případě že je třída uvedena v use se do anotací přesto uvádí full class
 4) Nikdy nepoužíváme use na rootovskou namespace (`use Nette`).
 
@@ -36,14 +37,15 @@ Třídy a interface
 7) Mezi jednotlivímy vlastnostmy a konstantamy se nedělají mezery (nové řádky)
 8) Mezi vlastnostmy, konstantamy a jednotlivímy metodami je vždy jedna mezera (nový řádek)
 9) Mezi koncem a začátem těla třídy není mezera (nový řádek) - tělo začíná na novém řádku za `{` a končí před `}` které je na novém řádku
-10) Iterface vždy začíná písmenkem *I*
+10) Interface vždy začíná písmenkem *I*
 
 phpDoc
 ------
 
-1) Pokud phpDoc vlastnosti obsahuje pouze `@var` zapisuje se na jeden řádek `/** @var string */`
+1) Pokud phpDoc vlastnosti obsahuje pouze `@var` zapisuje se na jeden řádek `/** @var string */`.
 2) U anotace `@param` nepíšeme název parametru.
 3) Anotace začíná vždy malím písmenem.
+4) Pokud v anotaci uvádíme typ a typem je třída nebo interface, který máme uveden v use uvádíme do anotace full class.
 
 Ostatní
 -------
